@@ -1,1 +1,1 @@
-web: gunicorn calc:calc
+web: python calc.py
