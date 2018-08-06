@@ -25,10 +25,10 @@ def hello():
             y = len(friendname)
             if x>y:
                 result = (float(y)/float(x))*100.0
-                flash(result)
+                flash(round(result,2))
             if y>x:
                 result = (float(x)/float(y))*100.0
-                flash(result)
+                flash(round(result,2))
         else:
             flash('All the form fields are required. ')
 
